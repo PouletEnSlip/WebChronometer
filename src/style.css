@@ -1,13 +1,13 @@
 html {
 	background-color: #333;
-	color: white;
+	color: #fff;
 	text-align: center;
 }
 
 h1 {
 	font-size: 40px;
 	color: #fff;
-	text-shadow: 2px 2px 8px black;
+	text-shadow: 2px 2px 8px #000;
 }
 
 a {
@@ -27,25 +27,19 @@ a:hover {
 	color: rgb(225, 60, 60);
 	cursor: pointer;
 	font-size: 25px;
+	box-shadow: 0 0 15px 0 0 10px rgb(255, 72, 72);
 	transition: 0.2s;
-	box-shadow: 0 0 10px rgb(255, 72, 72),
-					0 0 10px rgb(255, 72, 72),
-					0 0 10px rgb(255, 72, 72),
-					0 0 10px rgb(255, 72, 72);
 }
 
 .bouton:hover {
 	background: rgba(255, 37, 37, 0.2);
-	color: white;
-	box-shadow: 0 0 12px rgb(255, 110, 110),
-				0 0 12px rgb(255, 110, 110),
-				0 0 12px rgb(255, 110, 110),
-				0 0 12px rgb(255, 110, 110);
+	color: #fff;
+	box-shadow: 0 0 20px 0 0 12px rgb(255, 110, 110);
 }
 
 #chrono {
 	font-size: 80px;
-	text-shadow: 2px 2px 8px black;
+	text-shadow: 2px 2px 8px #000;
 }
 
 @media only screen and (max-width: 800px) {
@@ -54,6 +48,6 @@ a:hover {
 	}
 	#chrono {
 		font-size: 60px;
-		text-shadow: 2px 2px 8px black;
+		text-shadow: 2px 2px 8px #000;
 	}
 }
